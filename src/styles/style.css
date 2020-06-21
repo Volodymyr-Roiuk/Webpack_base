@@ -1,0 +1,23 @@
+@import './robota.css';
+
+body {
+    font-family: Robota, sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.logo {
+    background-image: url('../assets/webpack-logo.png');
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
